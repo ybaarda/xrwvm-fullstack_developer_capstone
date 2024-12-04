@@ -46,5 +46,5 @@ class CarModel(models.Model):
         ]
     )
     def __str__(self):
-        return f"{self.make} {self.name} ({self.year})"
+        return f"{self.car_make} {self.name} ({self.year})"
 
